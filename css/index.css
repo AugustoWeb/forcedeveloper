@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #201b2c;
+}
+
+.header-custom {
+    background: #2f2841;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* na ul precisa adicionar display flex para deixar os items um do lado do outro*/
+
+.nav-bar ul {
+    display: flex;
+    padding: 2rem;
+    list-style: none;
+    gap: .8rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-bar a:hover {
+    color: #00ff88;
+    border: 1px solid #00ff88;
+    border-radius: 5px;
+}
+
+nav .dev-logo {
+    color: white;
+}
+
+.dev-logo {
+    padding-left: 1vh;
+}
+
+.dev-logo:hover {
+    color: #00ff88;
+    border: solid 1px #00ff88;
+    border-radius: 4px;
+}
+
+.reponsividade {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+li :hover,
+.reponsividade:hover,
+.a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #2f2841;
+    border-radius: 10px;
+    border: solid 1px #00ff88;
+    color: #00ff88;
+}
+
+.text-personalizado:hover {
+    color: #00ff88;
+    text-shadow: 1px 1px 8px;
+}
+
+.conteudo p {
+    color: white;
+    padding: 2vh;
+}
+
+.conteudo p:hover {
+    color: #00ff88;
+}
+
+@media (max-width:700px) {
+    .header-custom,
+    ul {
+        flex-direction: column;
+    }
+    ul {
+        text-align: center;
+    }
+    .header-custom {
+        align-items: flex-start;
+    }
+    .nav-bar h1 a {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .reponsividade {
+        display: flex;
+    }
+    li,
+    ul {
+        width: 100%;
+    }
+}
