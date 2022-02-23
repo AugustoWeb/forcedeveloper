@@ -4,9 +4,9 @@
   <p>Free to use but you can't post it on your profile saying you own it</p>
      <a href="https://forcedeveloper.augustoweb.repl.co/registro.html" target="_blank">View Register</a> <br>
   <br>
-  <a href="https://forcedeveloper.augustoweb.repl.co/login.html" target="_blank">Viwe Login</a>
+  <a href="https://forcedeveloper.augustoweb.repl.co/login.html" target="_blank">View Login</a>
   <br><br>
-
+  <a href="https://forcedeveloper.augustoweb.repl.co/index.html" target="_blank">View Index</a><br><br>
  
 ![illustration1](https://user-images.githubusercontent.com/99710453/154686772-b6d8e923-dcaa-48ca-bd20-6d564f30bc90.PNG)
 ![illustration2](https://user-images.githubusercontent.com/99710453/154686778-4e311845-834e-447e-a19e-a77ce511b834.PNG)
