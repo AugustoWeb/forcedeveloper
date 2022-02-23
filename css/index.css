@@ -1,13 +1,22 @@
+:root {
+    --primary: #201b2c;
+    --secondary: #00ff88;
+    --tertiary: #2f2841;
+    --quintary: #fff;
+}
+
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: #201b2c;
+    background: var(--primary);
+    margin: 0;
 }
 
 .header-custom {
-    background: #2f2841;
+    background: var(--tertiary);
 }
 
 .nav-bar {
@@ -30,11 +39,12 @@ body {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    padding: 5px;
 }
 
 .nav-bar a:hover {
-    color: #00ff88;
-    border: 1px solid #00ff88;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
     border-radius: 5px;
 }
 
@@ -43,12 +53,12 @@ nav .dev-logo {
 }
 
 .dev-logo {
-    padding-left: 1vh;
+    padding: 1vh;
 }
 
 .dev-logo:hover {
-    color: #00ff88;
-    border: solid 1px #00ff88;
+    color: var(--secondary);
+    border: solid 1px var(--secondary);
     border-radius: 4px;
 }
 
@@ -68,27 +78,132 @@ li :hover,
 .a:hover {
     cursor: pointer;
     opacity: 0.8;
-    background-color: #2f2841;
+    background-color: var(--tertiary);
     border-radius: 10px;
-    border: solid 1px #00ff88;
-    color: #00ff88;
+    border: solid 1px var(--secondary);
+    color: var(--secondary);
 }
 
-.text-personalizado:hover {
-    color: #00ff88;
-    text-shadow: 1px 1px 8px;
+.primeiro-conteudo {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 60px;
+    overflow: hidden;
 }
 
-.conteudo p {
+.primeiro-conteud0 {
     color: white;
-    padding: 2vh;
+    border: 1px solid #fff;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background: var(--tertiary);
+    padding: 30px;
+    font-size: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 99px 0 rgba(0, 0, 0, 1);
+    margin-left: -150px;
+    transition: 0.2s;
 }
 
-.conteudo p:hover {
-    color: #00ff88;
+.primeiro-conteud0:hover {
+    margin-right: 150px;
+    transform: translateY(-20px);
 }
 
-@media (max-width:700px) {
+.primeiro-conteudo .primeiro-conteud0:nth-child(1) {
+    margin-left: 0;
+}
+
+.primeiro-conteudo .primeiro-conteud0:nth-child(5) {
+    margin-left: 50px;
+}
+
+.primeiro-conteud0 .data {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.primeiro-conteud0 .data time {
+    color: var(--primary);
+    padding-left: 10px;
+}
+
+.primeiro-conteud0 h2 {
+    font-size: 16px;
+    line-height: 18px;
+    display: block;
+    height: 110px;
+}
+
+.primeiro-conteud0 .autor {
+    display: flex;
+    align-items: center;
+}
+
+.primeiro-conteud0 .autor .img-container {
+    width: 50px;
+    height: 50px;
+    border: solid 3px var(--secondary);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/**/
+
+.img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.primeiro-conteud0 .autor .info {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.primeiro-conteud0 .autor .info span {
+    display: block;
+    font-size: 11px;
+    color: var(--secondary);
+    padding-bottom: 3px;
+}
+
+.primeiro-conteud0 .tags a {
+    display: inline-block;
+    border: solid 3px var(--primary);
+    border-radius: 30px;
+    padding: 8px 25px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--quintary);
+}
+
+.primeiro-conteud0 .tags a:hover {
+    color: var(--secondary);
+    border: solid 3px var(--quintary)
+}
+
+.container-text {
+    display: flex;
+    border: solid 1px var(--quintary);
+    position: relative;
+}
+
+.segundo-container-text {
+    color: var(--quintary);
+}
+
+@media (max-width: 700px) {
     .header-custom,
     ul {
         flex-direction: column;
@@ -110,4 +225,21 @@ li :hover,
     ul {
         width: 100%;
     }
+}
+
+
+/*personalizando barra de rolagen*/
+
+::-webkit-scrollbar-track {
+    background-color: var(--secondary);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: var(--secondary);
+}
+
+::-webkit-scrollbar-thum {
+    background: var(--secondary);
+    border-radius: 0;
 }
