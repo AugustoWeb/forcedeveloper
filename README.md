@@ -3,7 +3,7 @@
   <p>All web pages are responsive and adapt to all devices</p>
   <p>Free to use but you can't post it on your profile saying you own it</p>
      <a target="_blank"href="https://forcedeveloper.augustoweb.repl.co/registro.html">View Register</a> <br>
-  <br>
+
   <a target="_blank" href="https://forcedeveloper.augustoweb.repl.co/login.html">View Login</a>
   <br><br>
   <a target="_blank" href="https://forcedeveloper.augustoweb.repl.co/index.html">View Index</a><br><br>
