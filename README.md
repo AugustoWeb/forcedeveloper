@@ -7,7 +7,7 @@
   <a target="_blank" href="https://forcedeveloper.augustoweb.repl.co/login.html">View Login</a>
   <br><br>
   <a target="_blank" href="https://forcedeveloper.augustoweb.repl.co/index.html">View Index</a><br><br>
- 
+ <style><style>
 ![illustration1](https://user-images.githubusercontent.com/99710453/154686772-b6d8e923-dcaa-48ca-bd20-6d564f30bc90.PNG)
 ![illustration2](https://user-images.githubusercontent.com/99710453/154686778-4e311845-834e-447e-a19e-a77ce511b834.PNG)
 ![forcedevindex](https://user-images.githubusercontent.com/99710453/155397567-e5edc2dd-cd42-4bc6-bd68-d321b27f4f6d.PNG)
